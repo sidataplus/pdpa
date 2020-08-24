@@ -1,5 +1,7 @@
 # Thai PDPA Website (Unofficial)
 
+![Scree Capture](screen-capture.gif)
+
 The content on this website is based on [the official document of Thailand's Personal Data Protection Act (PDPA) B.E. 2562](http://www.ratchakitcha.soc.go.th/DATA/PDF/2562/A/069/T_0052.PDF).
 
 The website represents PDPA in a new format using [Gatsby-theme-andy](https://github.com/aravindballa/gatsby-theme-andy) (licensed under MIT).
