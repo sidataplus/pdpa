@@ -16,6 +16,14 @@ const Footer = ({ references }) => {
         >
           SiData+
         </Styled.a>
+        {' '}หรือ{' '}
+        <Styled.a
+          sx={{ textDecoration: 'underline', color: 'text-light' }}
+          href="https://github.com/sidataplus/pdpa"
+        >
+          GitHub
+        </Styled.a>{' '}
+        นี้
       </p>
     </Box>
   );
