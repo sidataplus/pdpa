@@ -1,0 +1,19 @@
+{
+  "name": "pdpa",
+  "version": "0.1.0",
+  "description": "PDPA Website",
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "gatsby develop",
+    "clean": "gatsby clean"
+  },
+  "author": "Natthawut Adulyanukosol",
+  "license": "MIT",
+  "dependencies": {
+    "gatsby": "^2.24.47",
+    "gatsby-plugin-manifest": "^2.4.23",
+    "gatsby-theme-andy": "^0.2.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
