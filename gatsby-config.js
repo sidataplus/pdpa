@@ -6,7 +6,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `PDPA presented by SiData+`,
+        name: `Thai PDPA unofficially presented by SiData+`,
         short_name: `PDPA`,
         start_url: `/`,
         background_color: `#006400`,

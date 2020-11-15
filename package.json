@@ -1,13 +1,13 @@
 {
   "name": "pdpa",
-  "version": "0.1.0",
-  "description": "PDPA Website",
+  "version": "1.0.0",
+  "description": "Thai PDPA Website (unofficial)",
   "scripts": {
     "build": "gatsby build",
     "dev": "gatsby develop",
     "clean": "gatsby clean"
   },
-  "author": "Natthawut Adulyanukosol",
+  "author": "Siriraj Informatics and Data Innovation Center (SiData+)",
   "license": "MIT",
   "dependencies": {
     "gatsby": "^2.24.47",

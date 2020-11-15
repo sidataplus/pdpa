@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import React from 'react';
+import React from 'react'; // eslint-disable-line no-unused-vars
 import { LinkToStacked } from 'gatsby-theme-andy/src/components/CustomLinkToStacked';
 import { Link } from 'gatsby';
 import { Styled, jsx, Heading } from 'theme-ui';

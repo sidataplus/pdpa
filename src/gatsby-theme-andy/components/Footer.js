@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import React from 'react';
+import React from 'react'; // eslint-disable-line no-unused-vars
 import { Styled, jsx, Box } from 'theme-ui';
 
 import ReferredBlock from './ReferredBlock';
@@ -12,11 +12,11 @@ const Footer = ({ references }) => {
         หากพบข้อผิดพลาด หรือต้องการเสนอแนะ กรุณาติดต่อศูนย์{' '}
         <Styled.a
           sx={{ textDecoration: 'underline', color: 'text-light' }}
-          href="mailto:siwarehouse@mahidol.ac.th"
+          href="https://sidata.plus/about/contact.html"
         >
           SiData+
-        </Styled.a>
-        {' '}หรือ{' '}
+        </Styled.a>{' '}
+        หรือ{' '}
         <Styled.a
           sx={{ textDecoration: 'underline', color: 'text-light' }}
           href="https://github.com/sidataplus/pdpa"
