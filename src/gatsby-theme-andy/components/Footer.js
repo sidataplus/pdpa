@@ -12,7 +12,7 @@ const Footer = ({ references }) => {
         หากพบข้อผิดพลาด หรือต้องการเสนอแนะ กรุณาติดต่อศูนย์{' '}
         <Styled.a
           sx={{ textDecoration: 'underline', color: 'text-light' }}
-          href="https://sidata.plus/about/contact.html"
+          href="https://si.mahidol.ac.th/data/contact"
         >
           SiData+
         </Styled.a>{' '}
