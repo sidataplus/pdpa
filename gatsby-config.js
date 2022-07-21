@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: 'Thai PDPA (unofficial)',
+    title: 'พ.ร.บ.คุ้มครองข้อมูลส่วนบุคคล พ.ศ. ๒๕๖๒ Thailand PDPA - SiData+ คณะแพทยศาสตร์ศิริราชพยาบาล',
   },
   plugins: [
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Thai PDPA unofficially presented by SiData+`,
+        name: `พ.ร.บ.คุ้มครองข้อมูลส่วนบุคคล พ.ศ. ๒๕๖๒ Thailand PDPA - SiData+ คณะแพทยศาสตร์ศิริราชพยาบาล`,
         short_name: `PDPA`,
         start_url: `/`,
         background_color: `#006400`,
