@@ -9,21 +9,13 @@ const Footer = ({ references }) => {
     <Box p={3} sx={{ borderRadius: 2 }} mb={2} bg="accent" color="text-light">
       <ReferredBlock references={references} />
       <p sx={{ m: 0, fontSize: 1 }}>
-        หากพบข้อผิดพลาด หรือต้องการเสนอแนะ กรุณาติดต่อศูนย์{' '}
+        หากพบข้อผิดพลาด หรือต้องการเสนอแนะ กรุณาติดต่อ{' '}
         <Styled.a
           sx={{ textDecoration: 'underline', color: 'text-light' }}
-          href="https://si.mahidol.ac.th/data/contact"
+          href="https://pdpa.online.th/"
         >
-          SiData+
-        </Styled.a>{' '}
-        หรือ{' '}
-        <Styled.a
-          sx={{ textDecoration: 'underline', color: 'text-light' }}
-          href="https://github.com/sidataplus/pdpa"
-        >
-          GitHub
-        </Styled.a>{' '}
-        นี้
+          PDPA THAILAND
+        </Styled.a>
       </p>
     </Box>
   );
