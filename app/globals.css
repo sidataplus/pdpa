@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'db_lim_xmedium';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://sidata.plus/storage/fonts/DB-Lim-X-v3.2.woff') format('woff');
+}
+
+/* Mirrors theme.styles.root applied to <body> by gatsby-plugin-theme-ui,
+   plus a CSS reset equivalent to what the browser + theme-ui base provided. */
+* {
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+code, pre, kbd, samp {
+  font-family: Menlo, monospace;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sarabun), system-ui, -apple-system, sans-serif;
+  line-height: 1.65;
+  font-weight: 400;
+  color: var(--theme-ui-colors-text, #333);
+  background-color: var(--theme-ui-colors-background, #fff);
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 0.12s ease, color 0.12s ease;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+#__next,
+.app-root {
+  min-height: 100vh;
+}
+
+/* Smooth dark mode transition — only on layout/container elements, NOT interactive ones.
+   Kept short (120ms) so the toggle still feels instant, especially on mobile. */
+body,
+header,
+.note-container,
+.note-columns-container,
+.tippy-box {
+  transition: background-color 0.10s ease, border-color 0.10s ease, color 0.10s ease;
+}
+
+/* Remove tap delay on mobile (iOS/Android adds 300ms delay without this) */
+a, button, [role="button"], [role="switch"], input, label {
+  touch-action: manipulation;
+}
+
+/* Custom Tippy.js Theme to match the website (removes the default thick dark box) */
+.tippy-box {
+  background-color: var(--theme-ui-colors-background, #fff) !important;
+  color: var(--theme-ui-colors-text, #333) !important;
+  border: 1px solid var(--theme-ui-colors-gray, #e8e8e8);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.tippy-content {
+  padding: 0 !important;
+}
+
+.tippy-arrow {
+  color: var(--theme-ui-colors-background, #fff) !important;
+}
+
+/* Dark mode: deepen the Tippy shadow */
+[data-theme-ui-color-mode='dark'] .tippy-box {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Legacy selector (kept for compatibility) */
+[saved-theme='dark'] .tippy-box {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}

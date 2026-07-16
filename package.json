@@ -1,19 +1,39 @@
 {
   "name": "pdpa",
   "version": "1.0.0",
-  "description": "Thai PDPA Website (unofficial)",
+  "description": "Thai PDPA Website (unofficial) — Next.js",
+  "private": true,
   "scripts": {
-    "build": "gatsby build",
-    "dev": "gatsby develop",
-    "clean": "gatsby clean"
+    "gen": "node scripts/gen-public.mjs",
+    "sync": "node scripts/sync-highlights.mjs",
+    "watch:content": "nodemon --watch content --ext md,json --exec \"npm run gen\"",
+    "predev": "node scripts/gen-public.mjs",
+    "dev": "concurrently \"npm run watch:content\" \"next dev\"",
+    "prebuild": "node scripts/gen-public.mjs",
+    "build": "next build",
+    "start": "next start"
   },
   "author": "Siriraj Informatics and Data Innovation Center (SiData+)",
   "license": "MIT",
   "dependencies": {
-    "gatsby": "^2.32.13",
-    "gatsby-plugin-manifest": "^2.12.1",
-    "gatsby-theme-andy": "^0.2.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "@theme-ui/mdx": "^0.17.4",
+    "@tippyjs/react": "^4.2.6",
+    "gray-matter": "^4.0.3",
+    "lodash.isequal": "^4.5.0",
+    "lodash.throttle": "^4.1.1",
+    "next": "^14.2.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^9.0.1",
+    "rehype-raw": "^7.0.0",
+    "rehype-sanitize": "^6.0.0",
+    "remark-gfm": "^4.0.0",
+    "theme-ui": "^0.16.2",
+    "tippy.js": "^6.3.7",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.14"
   }
 }

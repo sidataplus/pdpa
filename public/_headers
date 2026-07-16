@@ -1,0 +1,8 @@
+# Security headers for static hosting (Netlify, Cloudflare Pages, etc.)
+# These mirror the headers in next.config.mjs which only apply during dev.
+
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
