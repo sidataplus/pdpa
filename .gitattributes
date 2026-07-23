@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Force yarn.lock and .yarnrc.yml to always use LF to prevent WSL YAML parse errors
+yarn.lock text eol=lf
+.yarnrc.yml text eol=lf

@@ -1,0 +1,82 @@
+[
+  {
+    "heading": "บทนำ",
+    "headingLevel": 2,
+    "startArticle": 1,
+    "endArticle": 7
+  },
+  {
+    "heading": "หมวด ๑ คณะกรรมการคุ้มครองข้อมูลส่วนบุคคล",
+    "headingLevel": 2,
+    "startArticle": 8,
+    "endArticle": 18
+  },
+  {
+    "heading": "หมวด ๒ การคุ้มครองข้อมูลส่วนบุคคล",
+    "headingLevel": 2
+  },
+  {
+    "heading": "ส่วนที่ ๑ บททั่วไป",
+    "headingLevel": 3,
+    "startArticle": 19,
+    "endArticle": 21
+  },
+  {
+    "heading": "ส่วนที่ ๒ การเก็บรวบรวมข้อมูลส่วนบุคคล",
+    "headingLevel": 3,
+    "startArticle": 22,
+    "endArticle": 26
+  },
+  {
+    "heading": "ส่วนที่ ๓ การใช้หรือเปิดเผยข้อมูลส่วนบุคคล",
+    "headingLevel": 3,
+    "startArticle": 27,
+    "endArticle": 29
+  },
+  {
+    "heading": "หมวด ๓ สิทธิของเจ้าของข้อมูลส่วนบุคคล",
+    "headingLevel": 2,
+    "startArticle": 30,
+    "endArticle": 42
+  },
+  {
+    "heading": "หมวด ๔ สำนักงานคณะกรรมการคุ้มครองข้อมูลส่วนบุคคล",
+    "headingLevel": 2,
+    "startArticle": 43,
+    "endArticle": 70
+  },
+  {
+    "heading": "หมวด ๕ การร้องเรียน",
+    "headingLevel": 2,
+    "startArticle": 71,
+    "endArticle": 76
+  },
+  {
+    "heading": "หมวด ๖ ความรับผิดทางแพ่ง",
+    "headingLevel": 2,
+    "startArticle": 77,
+    "endArticle": 78
+  },
+  {
+    "heading": "หมวด ๗ บทกำหนดโทษ",
+    "headingLevel": 2
+  },
+  {
+    "heading": "ส่วนที่ ๑ โทษอาญา",
+    "headingLevel": 3,
+    "startArticle": 79,
+    "endArticle": 81
+  },
+  {
+    "heading": "ส่วนที่ ๒ โทษทางปกครอง",
+    "headingLevel": 3,
+    "startArticle": 82,
+    "endArticle": 90
+  },
+  {
+    "heading": "บทเฉพาะกาล",
+    "headingLevel": 2,
+    "startArticle": 91,
+    "endArticle": 96
+  }
+]
